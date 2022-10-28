@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background: #FFFFFF;
+    color: #757575;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Шапка сайту */
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.logo-studio{
+    color: #000000;
+}
+
+
+.header a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1429;
+    letter-spacing: 0.02em;
+}
+
+.header-nav {
+    list-style: none;
+}
+
+.header-nav-links {
+    color: #212121;
+}
+
+.header-nav-links:hover,
+.header-nav-links:focus {
+    color: #2196F3;
+}
+
+.header-contact{
+    color: #757575;
+}
+
+/* main */
+
+/* Герой */
+
+.hero {
+    background: #2F303A;
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.3636;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.button-hero {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    border: none;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+/* Секції */
+
+.section {
+
+}
+
+.section-title {
+    font-weight: 700;
+    fon-size: 36px;
+    line-height: 1.1667;
+    text-align: center;
+    letter-spacing: 0.03em;
+     color: #212121;
+}
+
+/* Наші переваги */
+
+.features {
+
+}
+
+.features-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1429;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+     color: #212121;
+}
+
+/* команда */
+
+.team {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.1875;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
