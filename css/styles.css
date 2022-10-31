@@ -9,6 +9,7 @@ body{
     color: #757575;
 }
 
+/* Студія____________________________________ */
 /* Логотип */
 
 .logo {
@@ -28,14 +29,6 @@ body{
 
 /* Хедер */
 
-.header a {
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.1429;
-    letter-spacing: 0.02em;
-}
-
 .header-nav {
     list-style: none;
     }
@@ -43,6 +36,10 @@ body{
 .header-nav-links {
     color: #212121;
     text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1429;
+    letter-spacing: 0.02em;
 }
 
 .header-nav-links:hover,
@@ -55,6 +52,10 @@ body{
 .header-contact{
     color: #757575;
     text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1429;
+    letter-spacing: 0.02em;
 }
 
 
@@ -95,9 +96,6 @@ body{
 
 /* Секції */
 /* Заголовки секцій */
-.section{
-    
-}
 
 .section-title {
     font-weight: 700;
@@ -188,4 +186,54 @@ background: #2F303A;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
+}
+
+.footer-address:hover,
+.footer-address:focus,
+.footer-contact:hover,
+.footer-contact:focus{
+    color: #2196F3;
+}
+
+/* Портфоліо____________________________________ */
+/* Кнопки портфоліо */
+
+.button-list{
+    list-style: none;
+}
+
+.button-portfolio{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    cursor: pointer;
+}
+
+.button-portfolio:hover,
+.button-portfolio:focus{
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+
+/* Список портфоліо */
+
+.portfolio-list{
+    list-style: none;
+}
+
+.portfolio-list-title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;  
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.portfolio-type{
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.03em;
 }
