@@ -78,7 +78,7 @@ body{
 }
 
 .button-hero {
-    font-family: inherit;
+    font-family: 'Roboto';
     font-weight: 700;
     font-size: 16px;
     line-height: 1.875;
@@ -94,12 +94,17 @@ body{
     cursor: pointer;
 }
 
+.button-hero:hover,
+.button-hero:focus{
+    background: #188CE8;
+}
+
 /* Секції */
 /* Заголовки секцій */
 
-.section-title {
+.section-title{
     font-weight: 700;
-    fon-size: 36px;
+    font-size: 36px;
     line-height: 1.1667;
     text-align: center;
     letter-spacing: 0.03em;
@@ -144,6 +149,7 @@ body{
 }
 
 .team-title {
+    font-size: 16px;
     font-weight: 500;
     color: #212121;
 }
@@ -167,6 +173,10 @@ background: #2F303A;
 .footer-logo-studio {
     color: #FFFFFF;
     }
+
+address{
+    font-style: normal;
+}
 
 .footer-list{
     list-style: none;
@@ -203,6 +213,7 @@ background: #2F303A;
 }
 
 .button-portfolio{
+    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.625;
